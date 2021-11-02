@@ -9,11 +9,49 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 
 library(tidyverse)
+library(readxl)
+library(benelib)
 library(gt)
 ```
 
 
 ```{r, layout="l-body-outset"}
-read_rds("treatment-compontents-table.rds")
+read_excel("Treatment components.xlsx") %>%
+  janitor::clean_names() %>% 
+  fill(category) %>% 
+  mutate(
+    across(au1:de13, ~ ifelse(. == 0, "", "\U2713"))
+  ) %>% 
+  rename_with(~ snakecase::to_title_case(., abbreviations = c("DE", "CA", "UK", "AU", "US"))) %>%
+  group_by(Category) %>% 
+  gt() %>% 
+  theme_gt_apa() %>% 
+  cols_label(
+    "AU 1" = html("AU<br>1"),
+    "UK 2" = html("UK<br>2"),
+    "DE 3" = html("DE<br>3"),
+    "US 4" = html("US<br>4"),
+    "US 5" = html("US<br>5"),
+    "UK 6" = html("UK<br>6"),
+    "US 7" = html("US<br>7"),
+    "US 8" = html("US<br>8"),
+    "US 9" = html("US<br>9"),
+    "US 10" = html("US<br>10"),
+    "US 11" = html("US<br>11"),
+    "CA 12" = html("CA<br>12"),
+    "DE 13" = html("DE<br>13"),
+  ) %>% 
+  tab_style(
+    style = cell_text(indent = "20px"),
+    locations = cells_body(columns = 2)
+  ) %>% 
+  tab_style(
+    style = cell_text(indent = "0px", weight = "bold"),
+    locations = cells_row_groups()
+  ) %>% 
+  tab_style(
+    style = cell_text(align = "center"),
+    locations = cells_column_labels()
+  )
 ```
 
