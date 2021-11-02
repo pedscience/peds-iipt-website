@@ -1,10 +1,11 @@
 ---
 title: "About this site"
 description: |
-  Some additional details about the website
+  Some additional details about the interest group.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+Here may be some information regarding the interest group.
