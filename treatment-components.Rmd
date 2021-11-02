@@ -2,7 +2,12 @@
 title: "IIPT Treatment Components"
 description: |
   IIPT treatment components for all treatment sites identified through our systematic review.
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+editor_options: 
+  chunk_output_type: console
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -14,6 +19,9 @@ library(benelib)
 library(gt)
 ```
 
+Below are the treatment components for all 13 treatment sites we were able to identify. For information where these treatment sites are located and which articles were referenced for a respective site, see [below](#considered-studies).
+
+# Components per Site
 
 ```{r, layout="l-body-outset"}
 read_excel("Treatment components.xlsx") %>%
@@ -55,3 +63,82 @@ read_excel("Treatment components.xlsx") %>%
   )
 ```
 
+# Considered Studies {#considered-studies}
+
+### AU (1)
+
+Melbourne, Australia
+
+@Chalkiadis.2001
+
+### UK (2)
+
+Bath, UK
+
+@Eccleston.2003
+
+### DE (3)
+
+Datteln, Germany
+
+@Dobe.2006, @Dobe.2011, @Dogan.2021, @Flack.2018, @Hechler.2010, @Hechler.2010b, @Hechler.2009, @Hechler.2014, @Hechler.2014b, @Hirschfeld.2013, @LopezLumbi.2021, @Ruhe.2017, @Stahlschmidt.2017, @Stahlschmidt.2018, @Zernikow.2018
+
+### US (4)
+
+Baltimore, USA
+
+@Maynard.2010, @Robinson.2019
+
+### US (5)
+
+Boston, USA
+
+@Erpelding.2016, @Logan.2012, @Logan.2015, @Mirek.2019, @Nelson.2019, @Randall.2021, @Randall.2018, @Shulman.2020, @Shulman.2020b, @Sieberg.2017, @Simons.2012, @Simons.2018
+
+### UK (6)
+
+Bath, UK
+
+@GauntlettGilbert.2013, @Kemani.2018
+
+### US (7)
+
+Kansas City, USA
+
+@Pielech.2018, @Scheufler.2021, @Weiss.2013
+
+### US (8)
+
+Cleveland, USA
+
+@Banez.2014, @Benore.2015, @Buchannan.2018, @Evans.2016, @Kempert.2020, @Kempert.2017
+
+### US (9)
+
+Philadelphia, USA
+
+@Sherry.2015
+
+### US (10)
+
+Cincinnati, USA
+
+@Boggero.2021, @Krietsch.2021, @Williams.2020
+
+### US (11)
+
+Rochester, USA
+
+@Bruce.2017, @Fahrenkamp.2020, @JunghansRutelonis.2018
+
+### CA (12)
+
+Calgary, Canada
+
+@Hurtubise.2020b
+
+### DE (13)
+
+Garmisch-Partenkirchen, Germany
+
+@Hoefel.2016
