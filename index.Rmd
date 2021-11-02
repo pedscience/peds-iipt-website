@@ -1,7 +1,8 @@
 ---
 title: "Pediatric Intensive Interdisciplinary Pain Treatments"
 description: |
-  Welcome to the website. Here, we present treatment characteristics of Intensive Interdisciplinary Pain Treatments (IIPTs) we identified in journal articles.
+  Welcome to the website.
+bibliography: references.bib
 site: distill::distill_website
 ---
 
@@ -12,4 +13,6 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/website.html
 
 ```
+
+This website contains all treatment characteristics we identified through our literature search for [our systematic review and meta-analysis](https://osf.io/jnzq5/)  regarding Intensive Interdisciplinary Pain Treatment for children and adolescents [@Claus.2021].
 

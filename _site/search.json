@@ -6,15 +6,15 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-11-02T10:47:41+01:00"
+      "last_modified": "2021-11-02T11:38:52+01:00"
     },
     {
       "path": "index.html",
       "title": "Pediatric Intensive Interdisciplinary Pain Treatments",
-      "description": "Welcome to the website. Here, we present treatment characteristics of Intensive Interdisciplinary Pain Treatments (IIPTs) we identified in journal articles.\n",
+      "description": "Welcome to the website.\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-11-02T10:47:42+01:00"
+      "contents": "\r\nThis website contains all treatment characteristics we identified through our literature search for our systematic review and meta-analysis regarding Intensive Interdisciplinary Pain Treatment for children and adolescents (Claus et al. 2021).\r\n\r\n\r\n\r\nClaus, Benedikt B., Lorin Stahlschmidt, Emma Dunford, János Major, Cynthia Harbeck-Weber, Rashmi P. Bhandari, Ardith Baerveldt, et al. 2021. “Intensive Interdisciplinary Pain Treatment for Children and Adolescents with Chronic Non-cancer Pain: A Preregistered Systematic Review and Individual Patient Data Meta-analysis.” Pain.\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-11-02T11:38:55+01:00"
     }
   ],
   "collections": []
