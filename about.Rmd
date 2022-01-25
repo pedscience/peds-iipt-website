@@ -1,10 +1,14 @@
 ---
 title: "About this site"
 description: |
-  Some additional details about the website
+  Some additional details about the interest group.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+In 2019, during the International Symposium on Pediatric Pain in Basel, Switzerland, an international, multiprofessional group of representatives of Intensive Interdisciplinary Pain Treatment programs from four different continents met. The meeting was initiated by Dr. Deirdre Logan, Dr. Sara Williams and Dr. Dustin Wallace.
+
+During this meeting a working group on “Evidence on IIPT” was formed under the lead of Prof. Boris Zernikow and Dr. Julia Wager. 
+The aim of this working group is to summarize current evidence on IIPT worldwide.
