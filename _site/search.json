@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the interest group.",
+      "author": [],
+      "contents": "\r\nIn 2019, during the International Symposium on Pediatric Pain in Basel, Switzerland, an international, multiprofessional group of representatives of Intensive Interdisciplinary Pain Treatment programs from four different continents met. The meeting was initiated by Dr. Deirdre Logan, Dr. Sara Williams and Dr. Dustin Wallace.\r\nDuring this meeting a working group on “Evidence on IIPT” was formed under the lead of Prof. Boris Zernikow and Dr. Julia Wager. The aim of this working group is to summarize current evidence on IIPT worldwide.\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-01-25T09:40:20+01:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Pediatric Intensive Interdisciplinary Pain Treatments",
+      "description": "The idea of this website is to publish the results of the qualitative analysis of our paper (i.e., the description of available treatments) so that clinicians can  retrace which IIPT components were identifiable based on published journal articles for which treatment site. If the treatment components identified through our research are out of date or incomplete, clinicians may get in touch with us and we'll update the treatment components for that specific site based on credible sources.\n",
+      "author": [],
+      "contents": "\r\nChronic pain in children and adolescents is a prevalent issue (Könning et al. 2021) and is associated with high costs for the society (Groenewald et al. 2014). A specialized intervention for those patients not profiting from conventional outpatient treatment may be Intensive Interdisciplinary Pain Treatment (IIPT). Pediatric IIPT involves coordinated interventions delivered by at least 3 disciplines (e.g., medical doctors, child psychologists, physiotherapists, nurses) working together in the same facility in an integrated way. Pediatric IIPT is provided by pediatric-trained providers in an inpatient or day hospital setting, targeting youth with pain-related impairment who are unable to make progress in an outpatient treatment setting. Treatment engages youths and their families to develop and work toward goals including self-management of health, independent functioning, and reengagement with age-specific activities1.\r\nBest Practices\r\nBest practices for pediatric IIPT programs include providing an average of 8 hours of treatment per day over a period of at least 2 weeks, with biopsychosocial treatment targets such as physical functioning, activities of daily life, quality of life, social functioning, and emotional health. Programs should assure that patients leave the program with a follow-up plan to independently manage changes in symptoms while recognizing when medical evaluation and care may be needed. For programs that do not run constantly through the year, they should assure that they are seeing a sufficient number of patients per year to maintain expertise with this treatment and population2.\r\nTreatment Components\r\nThis website contains all treatment characteristics we identified through our literature search for our systematic review and meta-analysis regarding pediatric IIPT (Claus et al. 2022).\r\nIf visitors of this website are employed at a treatment site listed on this website and notice discrepancies between published and actually employed components, we encourage them to contact us to update the treatment components.\r\n\r\n\r\n\r\nClaus, Benedikt B., Lorin Stahlschmidt, Emma Dunford, János Major, Cynthia Harbeck-Weber, Rashmi P. Bhandari, Ardith Baerveldt, et al. 2022. “Intensive Interdisciplinary Pain Treatment for Children and Adolescents with Chronic Non-cancer Pain: A Preregistered Systematic Review and Individual Patient Data Meta-analysis.” Pain.\r\n\r\n\r\nGroenewald, Cornelius B., Bonnie S. Essner, Davene Wright, Megan D. Fesinmeyer, and Tonya M. Palermo. 2014. “The economic costs of chronic pain among a cohort of treatment-seeking adolescents in the United States.” The Journal of Pain 15 (9): 925–33. https://doi.org/10.1016/j.jpain.2014.06.002.\r\n\r\n\r\nKönning, Anna, Nicola Rosenthal, Donnamay Brown, Lorin Stahlschmidt, and Julia Wager. 2021. “Severity of Chronic Pain in German Adolescent School Students: A Cross-sectional Study.” The Clinical Journal of Pain 37 (2): 118–25. https://doi.org/10.1097/AJP.0000000000000898.\r\n\r\n\r\nThe definition of pediatric IIPT is still work in progress.↩︎\r\nThe formulation of best practices is still work in progress.↩︎\r\n",
+      "last_modified": "2022-01-25T09:40:23+01:00"
+    },
+    {
+      "path": "treatment-components.html",
+      "title": "IIPT Treatment Components",
+      "description": "IIPT treatment components for all treatment sites identified through our systematic review.\n",
+      "author": [],
+      "contents": "\r\nAfter publication of the parent article, the identified treatment sites and respective treatment components will be published here.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-01-25T09:40:27+01:00"
+    }
+  ],
+  "collections": []
+}
