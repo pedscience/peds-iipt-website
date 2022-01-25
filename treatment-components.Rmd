@@ -19,126 +19,128 @@ library(benelib)
 library(gt)
 ```
 
-Below are the treatment components for all 13 treatment sites we were able to identify. For information where these treatment sites are located and which articles were referenced for a respective site, see [below](#considered-studies).
+After publication of the parent article, the identified treatment sites and respective treatment components will be published here.
 
-# Components per Site
+<!-- Below are the treatment components for all 13 treatment sites we were able to identify. For information where these treatment sites are located and which articles were referenced for a respective site, see [below](#considered-articles). -->
 
-```{r, layout="l-body-outset"}
-read_excel("Treatment components.xlsx") %>%
-  janitor::clean_names() %>% 
-  fill(category) %>% 
-  mutate(
-    across(au1:de13, ~ ifelse(. == 0, "", "\U2713"))
-  ) %>% 
-  rename_with(~ snakecase::to_title_case(., abbreviations = c("DE", "CA", "UK", "AU", "US"))) %>%
-  group_by(Category) %>% 
-  gt() %>% 
-  theme_gt_apa() %>% 
-  cols_label(
-    "AU 1" = html("AU<br>1"),
-    "UK 2" = html("UK<br>2"),
-    "DE 3" = html("DE<br>3"),
-    "US 4" = html("US<br>4"),
-    "US 5" = html("US<br>5"),
-    "UK 6" = html("UK<br>6"),
-    "US 7" = html("US<br>7"),
-    "US 8" = html("US<br>8"),
-    "US 9" = html("US<br>9"),
-    "US 10" = html("US<br>10"),
-    "US 11" = html("US<br>11"),
-    "CA 12" = html("CA<br>12"),
-    "DE 13" = html("DE<br>13"),
-  ) %>% 
-  tab_style(
-    style = cell_text(indent = "20px"),
-    locations = cells_body(columns = 2)
-  ) %>% 
-  tab_style(
-    style = cell_text(indent = "0px", weight = "bold"),
-    locations = cells_row_groups()
-  ) %>% 
-  tab_style(
-    style = cell_text(align = "center"),
-    locations = cells_column_labels()
-  )
-```
+<!-- # Components per Site -->
 
-# Considered Studies {#considered-studies}
+<!-- ```{r, layout="l-body-outset"} -->
+<!-- read_excel("Treatment components.xlsx") %>% -->
+<!--   janitor::clean_names() %>%  -->
+<!--   fill(category) %>%  -->
+<!--   mutate( -->
+<!--     across(au1:de13, ~ ifelse(. == 0, "", "\U2713")) -->
+<!--   ) %>%  -->
+<!--   rename_with(~ snakecase::to_title_case(., abbreviations = c("DE", "CA", "UK", "AU", "US"))) %>% -->
+<!--   group_by(Category) %>%  -->
+<!--   gt() %>%  -->
+<!--   theme_gt_apa() %>%  -->
+<!--   cols_label( -->
+<!--     "AU 1" = html("AU<br>1"), -->
+<!--     "UK 2" = html("UK<br>2"), -->
+<!--     "DE 3" = html("DE<br>3"), -->
+<!--     "US 4" = html("US<br>4"), -->
+<!--     "US 5" = html("US<br>5"), -->
+<!--     "UK 6" = html("UK<br>6"), -->
+<!--     "US 7" = html("US<br>7"), -->
+<!--     "US 8" = html("US<br>8"), -->
+<!--     "US 9" = html("US<br>9"), -->
+<!--     "US 10" = html("US<br>10"), -->
+<!--     "US 11" = html("US<br>11"), -->
+<!--     "CA 12" = html("CA<br>12"), -->
+<!--     "DE 13" = html("DE<br>13"), -->
+<!--   ) %>%  -->
+<!--   tab_style( -->
+<!--     style = cell_text(indent = "20px"), -->
+<!--     locations = cells_body(columns = 2) -->
+<!--   ) %>%  -->
+<!--   tab_style( -->
+<!--     style = cell_text(indent = "0px", weight = "bold"), -->
+<!--     locations = cells_row_groups() -->
+<!--   ) %>%  -->
+<!--   tab_style( -->
+<!--     style = cell_text(align = "center"), -->
+<!--     locations = cells_column_labels() -->
+<!--   ) -->
+<!-- ``` -->
 
-### AU (1)
+<!-- # Considered Articles {#considered-articles} -->
 
-Melbourne, Australia
+<!-- ### AU (1) -->
 
-@Chalkiadis.2001
+<!-- Melbourne, Australia -->
 
-### UK (2)
+<!-- @Chalkiadis.2001 -->
 
-Bath, UK
+<!-- ### UK (2) -->
 
-@Eccleston.2003
+<!-- Bath, UK -->
 
-### DE (3)
+<!-- @Eccleston.2003 -->
 
-Datteln, Germany
+<!-- ### DE (3) -->
 
-@Dobe.2006, @Dobe.2011, @Dogan.2021, @Flack.2018, @Hechler.2010, @Hechler.2010b, @Hechler.2009, @Hechler.2014, @Hechler.2014b, @Hirschfeld.2013, @LopezLumbi.2021, @Ruhe.2017, @Stahlschmidt.2017, @Stahlschmidt.2018, @Zernikow.2018
+<!-- Datteln, Germany -->
 
-### US (4)
+<!-- @Dobe.2006, @Dobe.2011, @Dogan.2021, @Flack.2018, @Hechler.2010, @Hechler.2010b, @Hechler.2009, @Hechler.2014, @Hechler.2014b, @Hirschfeld.2013, @LopezLumbi.2021, @Ruhe.2017, @Stahlschmidt.2017, @Stahlschmidt.2018, @Zernikow.2018 -->
 
-Baltimore, USA
+<!-- ### US (4) -->
 
-@Maynard.2010, @Robinson.2019
+<!-- Baltimore, USA -->
 
-### US (5)
+<!-- @Maynard.2010, @Robinson.2019 -->
 
-Boston, USA
+<!-- ### US (5) -->
 
-@Erpelding.2016, @Logan.2012, @Logan.2015, @Mirek.2019, @Nelson.2019, @Randall.2021, @Randall.2018, @Shulman.2020, @Shulman.2020b, @Sieberg.2017, @Simons.2012, @Simons.2018
+<!-- Boston, USA -->
 
-### UK (6)
+<!-- @Erpelding.2016, @Logan.2012, @Logan.2015, @Mirek.2019, @Nelson.2019, @Randall.2021, @Randall.2018, @Shulman.2020, @Shulman.2020b, @Sieberg.2017, @Simons.2012, @Simons.2018 -->
 
-Bath, UK
+<!-- ### UK (6) -->
 
-@GauntlettGilbert.2013, @Kemani.2018
+<!-- Bath, UK -->
 
-### US (7)
+<!-- @GauntlettGilbert.2013, @Kemani.2018 -->
 
-Kansas City, USA
+<!-- ### US (7) -->
 
-@Pielech.2018, @Scheufler.2021, @Weiss.2013
+<!-- Kansas City, USA -->
 
-### US (8)
+<!-- @Pielech.2018, @Scheufler.2021, @Weiss.2013 -->
 
-Cleveland, USA
+<!-- ### US (8) -->
 
-@Banez.2014, @Benore.2015, @Buchannan.2018, @Evans.2016, @Kempert.2020, @Kempert.2017
+<!-- Cleveland, USA -->
 
-### US (9)
+<!-- @Banez.2014, @Benore.2015, @Buchannan.2018, @Evans.2016, @Kempert.2020, @Kempert.2017 -->
 
-Philadelphia, USA
+<!-- ### US (9) -->
 
-@Sherry.2015
+<!-- Philadelphia, USA -->
 
-### US (10)
+<!-- @Sherry.2015 -->
 
-Cincinnati, USA
+<!-- ### US (10) -->
 
-@Boggero.2021, @Krietsch.2021, @Williams.2020
+<!-- Cincinnati, USA -->
 
-### US (11)
+<!-- @Boggero.2021, @Krietsch.2021, @Williams.2020 -->
 
-Rochester, USA
+<!-- ### US (11) -->
 
-@Bruce.2017, @Fahrenkamp.2020, @JunghansRutelonis.2018
+<!-- Rochester, USA -->
 
-### CA (12)
+<!-- @Bruce.2017, @Fahrenkamp.2020, @JunghansRutelonis.2018 -->
 
-Calgary, Canada
+<!-- ### CA (12) -->
 
-@Hurtubise.2020b
+<!-- Calgary, Canada -->
 
-### DE (13)
+<!-- @Hurtubise.2020b -->
 
-Garmisch-Partenkirchen, Germany
+<!-- ### DE (13) -->
 
-@Hoefel.2016
+<!-- Garmisch-Partenkirchen, Germany -->
+
+<!-- @Hoefel.2016 -->

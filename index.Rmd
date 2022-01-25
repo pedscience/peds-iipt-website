@@ -1,7 +1,7 @@
 ---
 title: "Pediatric Intensive Interdisciplinary Pain Treatments"
 description: |
-  Welcome to the website.
+  The idea of this website is to publish the results of the qualitative analysis of our paper (i.e., the description of available treatments) so that clinicians can  retrace which IIPT components were identifiable based on published journal articles for which treatment site. If the treatment components identified through our research are out of date or incomplete, clinicians may get in touch with us and we'll update the treatment components for that specific site based on credible sources.
 bibliography: references.bib
 site: distill::distill_website
 ---
@@ -14,6 +14,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-This website contains all treatment characteristics we identified through our literature search for our systematic review and meta-analysis regarding Intensive Interdisciplinary Pain Treatment for children and adolescents [@Claus.2021].
+Chronic pain in children and adolescents is a prevalent issue [@Konning.2021] and is associated with high costs for the society [@Groenewald.2014]. A specialized intervention for those patients not profiting from conventional outpatient treatment may be Intensive Interdisciplinary Pain Treatment (IIPT). Pediatric IIPT involves coordinated interventions delivered by at least 3 disciplines (e.g., medical doctors, child psychologists, physiotherapists, nurses) working together in the same facility in an integrated way. Pediatric IIPT is provided by pediatric-trained providers in an inpatient or day hospital setting, targeting youth with pain-related impairment who are unable to make progress in an outpatient treatment setting. Treatment engages youths and their families to develop and work toward goals including self-management of health, independent functioning, and reengagement with age-specific activities^[The definition of pediatric IIPT is still work in progress.].
 
-The idea of this website is to publish the results of the qualitative analysis of our paper (i.e., the description of available treatments) so that clinicians can  see which IIPT components were identifiable based on published journal articles for which treatment site. If the treatment components identified through our research are out of date or incomplete, clinicians may get in touch with us and we'll update the treatment components for that specific site based on credible sources.
+## Best Practices
+Best practices for pediatric IIPT programs include providing an average of 8 hours of treatment per day over a period of at least 2 weeks, with biopsychosocial treatment targets such as physical functioning, activities of daily life, quality of life, social functioning, and emotional health. Programs should assure that patients leave the program with a follow-up plan to independently manage changes in symptoms while recognizing when medical evaluation and care may be needed. For programs that do not run constantly through the year, they should assure that they are seeing a sufficient number of patients per year to maintain expertise with this treatment and population^[The formulation of best practices is still work in progress.].
+
+
+## Treatment Components
+This website contains all treatment characteristics we identified through our literature search for our systematic review and meta-analysis regarding pediatric IIPT [@Claus.2022].
+
+If visitors of this website are employed at a treatment site listed on this website and notice discrepancies between published and actually employed components, we encourage them to [contact us](mailto:b.claus@pedscience.de) to update the treatment components.

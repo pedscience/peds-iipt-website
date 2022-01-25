@@ -1,7 +1,7 @@
 name: "peds-iipt"
-title: "Ped-IIPT"
+title: "Peds-IIPT"
 description: |
-  Pediatric IIPTs
+  Online repository for treatment components of international intensive interdisciplinary pain treatments.
 output_dir: "_site"
 navbar:
   right:
