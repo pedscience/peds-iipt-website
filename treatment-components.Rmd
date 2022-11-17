@@ -119,13 +119,13 @@ Cleveland, USA
 
 Philadelphia, USA
 
-@Sherry.2015
+@Sherry.2015, @Gmuca.13.06.2022
 
 ### US (10)
 
 Cincinnati, USA
 
-@Boggero.2021, @Krietsch.2021, @Williams.2020
+@Boggero.2021, @Krietsch.2021, @Williams.2020, @Williams.13.10.2022
 
 ### US (11)
 
@@ -137,7 +137,7 @@ Rochester, USA
 
 Calgary, Canada
 
-@Hurtubise.2020b
+@Hurtubise.2020b, @Rayner.11.10.2022
 
 ### DE (13)
 
